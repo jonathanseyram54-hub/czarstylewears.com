@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Czar StyleWears</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+<style>
+body{
+    margin:0;
+    font-family:'Poppins', sans-serif;
+    background:#0f0f0f;
+    color:white;
+}
+header{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+h1{
+    font-size:3rem;
+    letter-spacing:2px;
+}
+p{
+    max-width:600px;
+    opacity:0.8;
+}
+button{
+    margin-top:20px;
+    padding:12px 25px;
+    border:none;
+    background:white;
+    color:black;
+    font-weight:600;
+    cursor:pointer;
+    transition:0.3s;
+}
+button:hover{
+    background:#d4af37;
+    color:white;
+}
+section{
+    padding:60px 20px;
+    text-align:center;
+}
+.products{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
+}
+.card{
+    background:#1c1c1c;
+    padding:20px;
+    width:250px;
+    border-radius:10px;
+}
+footer{
+    padding:20px;
+    text-align:center;
+    background:black;
+    font-size:14px;
+    opacity:0.6;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Czar StyleWears</h1>
+    <p>Premium Feel. Affordable Access. Designed for Presence.</p>
+    <button onclick="document.getElementById('shop').scrollIntoView()">Shop Now</button>
+</header>
+
+<section id="shop">
+    <h2>Our Collection</h2>
+    <div class="products">
+        <div class="card">
+            <h3>Premium Birken Slides</h3>
+            <p>Comfort meets authority.</p>
+        </div>
+        <div class="card">
+            <h3>Classic Local Slippers</h3>
+            <p>Simple. Durable. Clean.</p>
+        </div>
+        <div class="card">
+            <h3>Custom Orders</h3>
+            <p>Made with intention.</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>About Us</h2>
+    <p>
+    Czar StyleWears creates footwear that balances comfort and class. 
+    We believe style should not be expensive — it should be powerful.
+    </p>
+</section>
+
+<footer>
+    © 2026 Czar StyleWears. All Rights Reserved.
+</footer>
+
+</body>
+</html>
